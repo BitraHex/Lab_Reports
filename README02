@@ -1,0 +1,34 @@
+BankAccount Encapsulation
+
+Description
+This Java program demonstrates the concept of encapsulation. A BankAccount class is created with private fields accountNumber, accountHolderName, and balance. Public getter and setter methods are provided to access and update these fields, with validation to prevent negative balances.
+
+Objectives
+
+To understand encapsulation in Java
+
+To demonstrate controlled access to private fields using getters and setters
+
+To validate and protect object data
+
+Program Details
+
+BankAccount class contains private fields: accountNumber, accountHolderName, balance
+
+Getter and setter methods for each field
+
+Setter for balance rejects negative values
+
+How to Run
+
+Open the project in VS Code
+
+Compile the program using: javac BankReport.java
+
+Run the program using: java BankReport
+
+Output
+The program displays the details of three BankAccount objects and demonstrates validation for negative balances.
+
+Author
+Ayrin

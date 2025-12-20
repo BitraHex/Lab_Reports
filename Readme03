@@ -1,0 +1,47 @@
+# Multithreading in Java
+
+## Description
+This Java program demonstrates multithreading by creating two threads:
+
+1. `NumberThread` prints numbers from 1 to 10.  
+2. `SquareThread` prints squares of numbers from 1 to 10.  
+
+Both threads run concurrently and share a counter variable. Synchronization is used to safely update the shared counter.
+
+---
+
+## How to Run
+
+1. Compile the Java file:
+
+```bash
+javac MultithreadingReport.java
+Run the program:
+java MultithreadingReport
+Sample output:
+Number: 1 (Counter: 1)
+Square: 1 (Counter: 2)
+Number: 2 (Counter: 3)
+Square: 4 (Counter: 4)
+...
+UML diagram
+      +----------------+
+      | SharedCounter  |
+      +----------------+
+      | - counter: int |
+      +----------------+
+      | + increment()  |
+      | + getCounter() |
+      +----------------+
+             ^
+             |
+      +----------------+        +----------------+
+      | NumberThread   |        | SquareThread   |
+      +----------------+        +----------------+
+      | - sharedCounter|        | - sharedCounter|
+      +----------------+        +----------------+
+      | + run()        |        | + run()        |
+      +----------------+        +----------------+
+Author
+
+Ayrin

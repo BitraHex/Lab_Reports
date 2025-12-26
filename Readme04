@@ -1,0 +1,64 @@
+Java Swing Circle Drawing Application
+Description
+
+This project is a Java Swing GUI application that demonstrates event handling and custom drawing.
+The application displays a window containing two buttons—Draw Circle and Clear—along with a drawing panel.
+
+When the user clicks Draw Circle, a filled circle is drawn at a random position inside the panel.
+When Clear is clicked, all drawings are removed and the panel becomes blank again.
+
+Features
+
+Java Swing based graphical user interface
+
+Button click handling using ActionListener
+
+Custom drawing using paintComponent()
+
+Random positioning of shapes
+
+Clear and redraw functionality
+
+Technologies Used
+
+Java
+
+Java Swing
+
+AWT Graphics
+
+Event Handling (ActionListener)
+
+How the Program Works
+
+The application window is created using JFrame.
+
+Two buttons are added: Draw Circle and Clear.
+
+A custom panel overrides paintComponent() to draw graphics.
+
+Clicking Draw Circle generates a random position and draws a filled circle.
+
+Clicking Clear removes all drawings and refreshes the panel.
+
+How to Run
+
+Open the project in any Java IDE (Eclipse, IntelliJ, NetBeans).
+
+Compile and run the file containing the main() method.
+
+Click Draw Circle to draw a circle.
+
+Click Clear to remove all drawings.
+
+Output
+
+A window with two buttons and a drawing area
+
+Randomly positioned filled circles
+
+Instant panel update on button click
+
+Author
+
+Ayrin
